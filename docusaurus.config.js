@@ -39,14 +39,14 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/dontnet-wuenze/My-Wiki/edit/main',
+            'https://github.com/dontnet-wuenze/Wiki_Docusaurus/edit/master',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/dontnet-wuenze/Wiki_Docusaurus/edit/master',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -76,6 +76,12 @@ const config = {
             position: 'left',
             label: '实验室',
             sidebarId: 'lab'
+          },
+          {
+            type: 'docSidebar',
+            position: 'left',
+            label: '技术',
+            sidebarId: 'techSidebar'
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
