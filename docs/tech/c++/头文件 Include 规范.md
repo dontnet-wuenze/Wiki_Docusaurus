@@ -1,3 +1,5 @@
+https://www.eventhelix.com/design-patterns/header-file-include/
+
 # C++ Header File Include Patterns
 
 Large software projects require a careful header file management even when programming in C. When developers move to C++, header file management becomes even more complex and time consuming. Here we present a few header file inclusion patterns that will simplify this chore.
